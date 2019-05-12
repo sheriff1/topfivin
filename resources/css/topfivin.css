@@ -2,6 +2,13 @@ td {
     border: 1px solid;
 }
 
+.logo-data {
+    text-align: center;
+    height: 4em;
+    width: 4em;
+    padding: 0.25em;
+}
+
 .team-logo {
     max-width: 50px;
     max-height: 50px;
