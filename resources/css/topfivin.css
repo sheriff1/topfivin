@@ -1,3 +1,8 @@
-td{
-	border: 1px solid;
+td {
+    border: 1px solid;
+}
+
+.team-logo {
+    max-width: 50px;
+    max-height: 50px;
 }

@@ -1,212 +1,241 @@
-[
-  {
-    "fullName": "Phoenix Suns",
-    "wins": 19,
-    "losses": 63,
-    "winRank": 29,
-    "lossRank": 3
-  },
-  {
-    "fullName": "New York Knicks",
-    "wins": 17,
-    "losses": 65,
-    "winRank": 30,
-    "lossRank": 1
-  },
-  {
-    "fullName": "Atlanta Hawks",
-    "wins": 29,
-    "losses": 53,
-    "winRank": 26,
-    "lossRank": 5
-  },
-  {
-    "fullName": "Cleveland Cavaliers",
-    "wins": 19,
-    "losses": 63,
-    "winRank": 28,
-    "lossRank": 2
-  },
-  {
-    "fullName": "Memphis Grizzlies",
-    "wins": 33,
-    "losses": 49,
-    "winRank": 23,
-    "lossRank": 8
-  },
-  {
-    "fullName": "New Orleans Pelicans",
-    "wins": 33,
-    "losses": 49,
-    "winRank": 24,
-    "lossRank": 9
-  },
-  {
-    "fullName": "Minnesota Timberwolves",
-    "wins": 36,
-    "losses": 46,
-    "winRank": 21,
-    "lossRank": 10
-  },
-  {
-    "fullName": "Los Angeles Lakers",
-    "wins": 37,
-    "losses": 45,
-    "winRank": 20,
-    "lossRank": 11
-  },
-  {
-    "fullName": "Charlotte Hornets",
-    "wins": 39,
-    "losses": 43,
-    "winRank": 17,
-    "lossRank": 12
-  },
-  {
-    "fullName": "Detroit Pistons",
-    "wins": 41,
-    "losses": 41,
-    "winRank": 16,
-    "lossRank": 15
-  },
-  {
-    "fullName": "Sacramento Kings",
-    "wins": 39,
-    "losses": 43,
-    "winRank": 18,
-    "lossRank": 13
-  },
-  {
-    "fullName": "Chicago Bulls",
-    "wins": 22,
-    "losses": 60,
-    "winRank": 27,
-    "lossRank": 4
-  },
-  {
-    "fullName": "Brooklyn Nets",
-    "wins": 42,
-    "losses": 40,
-    "winRank": 14,
-    "lossRank": 16
-  },
-  {
-    "fullName": "Orlando Magic",
-    "wins": 42,
-    "losses": 40,
-    "winRank": 15,
-    "lossRank": 17
-  },
-  {
-    "fullName": "Dallas Mavericks",
-    "wins": 33,
-    "losses": 49,
-    "winRank": 22,
-    "lossRank": 7
-  },
-  {
-    "fullName": "Indiana Pacers",
-    "wins": 48,
-    "losses": 34,
-    "winRank": 11,
-    "lossRank": 18
-  },
-  {
-    "fullName": "San Antonio Spurs",
-    "wins": 48,
-    "losses": 34,
-    "winRank": 13,
-    "lossRank": 20
-  },
-  {
-    "fullName": "Boston Celtics",
-    "wins": 49,
-    "losses": 33,
-    "winRank": 9,
-    "lossRank": 21
-  },
-  {
-    "fullName": "Philadelphia 76ers",
-    "wins": 51,
-    "losses": 31,
-    "winRank": 7,
-    "lossRank": 24
-  },
-  {
-    "fullName": "Utah Jazz",
-    "wins": 50,
-    "losses": 32,
-    "winRank": 8,
-    "lossRank": 23
-  },
-  {
-    "fullName": "Oklahoma City Thunder",
-    "wins": 49,
-    "losses": 33,
-    "winRank": 10,
-    "lossRank": 22
-  },
-  {
-    "fullName": "Houston Rockets",
-    "wins": 53,
-    "losses": 29,
-    "winRank": 5,
-    "lossRank": 25
-  },
-  {
-    "fullName": "Portland Trail Blazers",
-    "wins": 53,
-    "losses": 29,
-    "winRank": 6,
-    "lossRank": 26
-  },
-  {
-    "fullName": "Denver Nuggets",
-    "wins": 54,
-    "losses": 28,
-    "winRank": 4,
-    "lossRank": 27
-  },
-  {
-    "fullName": "Milwaukee Bucks",
-    "wins": 60,
-    "losses": 22,
-    "winRank": 1,
-    "lossRank": 30
-  },
-  {
-    "fullName": "Golden State Warriors",
-    "wins": 57,
-    "losses": 25,
-    "winRank": 3,
-    "lossRank": 28
-  },
-  {
-    "fullName": "Washington Wizards",
-    "wins": 32,
-    "losses": 50,
-    "winRank": 25,
-    "lossRank": 6
-  },
-  {
-    "fullName": "LA Clippers",
-    "wins": 48,
-    "losses": 34,
-    "winRank": 12,
-    "lossRank": 19
-  },
-  {
-    "fullName": "Miami Heat",
-    "wins": 39,
-    "losses": 43,
-    "winRank": 19,
-    "lossRank": 14
-  },
-  {
-    "fullName": "Toronto Raptors",
-    "wins": 58,
-    "losses": 24,
-    "winRank": 2,
-    "lossRank": 29
-  }
+[{
+        "fullName": "New York Knicks",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/d/dc/NY_Knicks_Logo_2011.png",
+        "wins": 17,
+        "losses": 65,
+        "winRank": 30,
+        "lossRank": 1
+    },
+    {
+        "fullName": "Washington Wizards",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/archive/d/d6/20161212034849%21Wizards2015.png",
+        "wins": 32,
+        "losses": 50,
+        "winRank": 25,
+        "lossRank": 6
+    },
+    {
+        "fullName": "Dallas Mavericks",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b8/Mavericks_de_Dallas_logo.svg/150px-Mavericks_de_Dallas_logo.svg.png",
+        "wins": 33,
+        "losses": 49,
+        "winRank": 22,
+        "lossRank": 7
+    },
+    {
+        "fullName": "New Orleans Pelicans",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/New_Orleans_Pelicans.png/200px-New_Orleans_Pelicans.png",
+        "wins": 33,
+        "losses": 49,
+        "winRank": 24,
+        "lossRank": 9
+    },
+    {
+        "fullName": "Cleveland Cavaliers",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/06/Cavs_de_Cleveland_logo_2017.png/150px-Cavs_de_Cleveland_logo_2017.png",
+        "wins": 19,
+        "losses": 63,
+        "winRank": 28,
+        "lossRank": 2
+    },
+    {
+        "fullName": "Chicago Bulls",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png",
+        "wins": 22,
+        "losses": 60,
+        "winRank": 27,
+        "lossRank": 4
+    },
+    {
+        "fullName": "Memphis Grizzlies",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/1200px-Memphis_Grizzlies.svg.png",
+        "wins": 33,
+        "losses": 49,
+        "winRank": 23,
+        "lossRank": 8
+    },
+    {
+        "fullName": "Los Angeles Lakers",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png",
+        "wins": 37,
+        "losses": 45,
+        "winRank": 20,
+        "lossRank": 11
+    },
+    {
+        "fullName": "Sacramento Kings",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Kings_de_Sacramento_logo.svg/1200px-Kings_de_Sacramento_logo.svg.png",
+        "wins": 39,
+        "losses": 43,
+        "winRank": 18,
+        "lossRank": 13
+    },
+    {
+        "fullName": "Charlotte Hornets",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png",
+        "wins": 39,
+        "losses": 43,
+        "winRank": 17,
+        "lossRank": 12
+    },
+    {
+        "fullName": "Detroit Pistons",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pistons_logo17.svg/1024px-Pistons_logo17.svg.png",
+        "wins": 41,
+        "losses": 41,
+        "winRank": 16,
+        "lossRank": 15
+    },
+    {
+        "fullName": "Miami Heat",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png",
+        "wins": 39,
+        "losses": 43,
+        "winRank": 19,
+        "lossRank": 14
+    },
+    {
+        "fullName": "Brooklyn Nets",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png",
+        "wins": 42,
+        "losses": 40,
+        "winRank": 14,
+        "lossRank": 16
+    },
+    {
+        "fullName": "Orlando Magic",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bd/Orlando_Magic_logo_2010.png",
+        "wins": 42,
+        "losses": 40,
+        "winRank": 15,
+        "lossRank": 17
+    },
+    {
+        "fullName": "Indiana Pacers",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Pacers_de_l%27Indiana_logo.svg/1180px-Pacers_de_l%27Indiana_logo.svg.png",
+        "wins": 48,
+        "losses": 34,
+        "winRank": 11,
+        "lossRank": 18
+    },
+    {
+        "fullName": "LA Clippers",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/d/d6/Los_Angeles_Clippers_logo_2010.png",
+        "wins": 48,
+        "losses": 34,
+        "winRank": 12,
+        "lossRank": 19
+    },
+    {
+        "fullName": "San Antonio Spurs",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/0/0e/San_Antonio_Spurs_2018.png",
+        "wins": 48,
+        "losses": 34,
+        "winRank": 13,
+        "lossRank": 20
+    },
+    {
+        "fullName": "Boston Celtics",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png",
+        "wins": 49,
+        "losses": 33,
+        "winRank": 9,
+        "lossRank": 21
+    },
+    {
+        "fullName": "Oklahoma City Thunder",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4f/Thunder_d%27Oklahoma_City_logo.svg/1200px-Thunder_d%27Oklahoma_City_logo.svg.png",
+        "wins": 49,
+        "losses": 33,
+        "winRank": 10,
+        "lossRank": 22
+    },
+    {
+        "fullName": "Utah Jazz",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/3/3b/Jazz_de_l%27Utah_logo.png",
+        "wins": 50,
+        "losses": 32,
+        "winRank": 8,
+        "lossRank": 23
+    },
+    {
+        "fullName": "Philadelphia 76ers",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/4/48/76ers_2016.png",
+        "wins": 51,
+        "losses": 31,
+        "winRank": 7,
+        "lossRank": 24
+    },
+    {
+        "fullName": "Houston Rockets",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Houston_Rockets_logo_2003.png/330px-Houston_Rockets_logo_2003.png",
+        "wins": 53,
+        "losses": 29,
+        "winRank": 5,
+        "lossRank": 25
+    },
+    {
+        "fullName": "Portland Trail Blazers",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/1200px-Portland_Trail_Blazers_logo.svg.png",
+        "wins": 53,
+        "losses": 29,
+        "winRank": 6,
+        "lossRank": 26
+    },
+    {
+        "fullName": "Minnesota Timberwolves",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d9/Timberwolves_du_Minnesota_logo_2017.png/200px-Timberwolves_du_Minnesota_logo_2017.png",
+        "wins": 36,
+        "losses": 46,
+        "winRank": 21,
+        "lossRank": 10
+    },
+    {
+        "fullName": "Denver Nuggets",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/35/Nuggets_de_Denver_2018.png/180px-Nuggets_de_Denver_2018.png",
+        "wins": 54,
+        "losses": 28,
+        "winRank": 4,
+        "lossRank": 27
+    },
+    {
+        "fullName": "Toronto Raptors",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/8/89/Raptors2015.png",
+        "wins": 58,
+        "losses": 24,
+        "winRank": 2,
+        "lossRank": 29
+    },
+    {
+        "fullName": "Milwaukee Bucks",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png",
+        "wins": 60,
+        "losses": 22,
+        "winRank": 1,
+        "lossRank": 30
+    },
+    {
+        "fullName": "Atlanta Hawks",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png",
+        "wins": 29,
+        "losses": 53,
+        "winRank": 26,
+        "lossRank": 5
+    },
+    {
+        "fullName": "Golden State Warriors",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png",
+        "wins": 57,
+        "losses": 25,
+        "winRank": 3,
+        "lossRank": 28
+    },
+    {
+        "fullName": "Phoenix Suns",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/5/56/Phoenix_Suns_2013.png",
+        "wins": 19,
+        "losses": 63,
+        "winRank": 29,
+        "lossRank": 3
+    }
 ]
