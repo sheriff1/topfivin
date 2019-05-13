@@ -16,13 +16,13 @@ $.getJSON("resources/data/rankings.json", function(json) {
             field: 'wins',
             title: 'Wins'
         }, {
-            field: 'winRank',
+            field: 'winsRank',
             title: 'Wins Rank'
         }, {
             field: 'losses',
             title: 'Losses'
         }, {
-            field: 'lossRank',
+            field: 'lossesRank',
             title: 'Losses Rank'
         }, {
             field: 'streak',
@@ -30,6 +30,12 @@ $.getJSON("resources/data/rankings.json", function(json) {
         }, {
             field: 'streakRank',
             title: 'Recent Streak Rank'
+        }, {
+            field: 'divisionWins',
+            title: 'Division Wins'
+        }, {
+            field: 'divisionWinsRank',
+            title: 'Division Wins Rank'
         }]
     });
 
