@@ -6,28 +6,45 @@
     <title>Top Fivin'</title>
     <link rel="stylesheet" type="text/css" href="resources/css/topfivin.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css">
+
 </head>
 
 <body>
+
     <h1>Wilkommen to NBA Top Fivin</h1>
-    <table>
+    <table id="table">
         <thead>
             <tr>
-                <td>Logos</td>
-                <td>Name</td>
-                <td>Wins</td>
-                <td>Losses</td>
-                <td>Win Rank</td>
-                <td>Loss Rank</td>
+                <th data-formatter="imageFormatter">Logos</th>
+                <th data-sortable="true">Name</th>
+                <th data-sortable="true">Wins</th>
+                <th data-sortable="true">Wins Rank</th>
+                <th data-sortable="true">Losses</th>
+                <th data-sortable="true">Losses Rank</th>
+                <th data-sortable="true">Recent Streak</th>
+                <th data-sortable="true">Recent Streak Rank</th>
             </tr>
         </thead>
         <tbody>
         </tbody>
     </table>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
     <script src="resources/js/dom/fetchData.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
+
 </body>
 
 </html>
