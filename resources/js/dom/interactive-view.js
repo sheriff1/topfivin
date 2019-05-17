@@ -4,6 +4,11 @@ $.getJSON("resources/data/rankingsV2.json", function(json) {
     rankings = json;
     console.log(rankings[0]);
 
+    for (var i = 0; i < rankings.length; i++) {
+        var dropdownTeamItem = "<a class=\"dropdown-item\">" + rankings[i]['fullName'] + "</a>";
+        $(".dropdown-menu").append(dropdownTeamItem);
+    }
+
     //NAME AND LOGO FOR HERO
     $(".team-select-team-logo").attr("src", rankings[0]['logo']);
     let nameSplit = rankings[0]['fullName'].split(" ");
@@ -34,5 +39,4 @@ $.getJSON("resources/data/rankingsV2.json", function(json) {
         rankings[2].data[2].rank +
         "</th></tr>";
     $(".rank-listing-data").append(rankToAdd);
-
 });
