@@ -97,3 +97,7 @@ td {
 .rank-listing-table th {
     border: 0;
 }
+
+.not-top-five {
+    display: none;
+}

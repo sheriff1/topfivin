@@ -32,7 +32,8 @@ $.getJSON("resources/data/rankingsV2.json", function(json) {
         document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[2].toUpperCase();
     }
 
-    for (var x = 0; x < rankings[0].data.length; x++) {
+    //ADD TOP 3 RANKINGS TO VIEW
+    for (var x = 0; x < 3; x++) {
         var rankToAdd =
             "<tr><th>" +
             rankings[0].data[x].stat.toUpperCase() +
@@ -41,7 +42,23 @@ $.getJSON("resources/data/rankingsV2.json", function(json) {
             "</th></tr>";
         $(".rank-listing-data").append(rankToAdd);
     }
+    //ADD ADDITIONAL RANKINGS TO VIEW
+    for (var x = 3; x < rankings[0].data.length; x++) {
+        var rankToAdd =
+            "<tr class=\'not-top-five\'><th>" +
+            rankings[0].data[x].stat.toUpperCase() +
+            "</th><th class=\'text-right\'> #" +
+            rankings[0].data[x].rank +
+            "</th></tr>";
+        $(".rank-listing-data").append(rankToAdd);
+    }
+
 });
+
+function showNotTopFive() {
+    $('.not-top-five').toggle();
+    $('.toggle-not-top-five').text("Hide the rest!");
+}
 
 $(function() {
     $(".dropdown").change(function() {
@@ -71,12 +88,23 @@ $(function() {
         var nextTeamColor = _.findWhere(colors, { fullName: $('option:selected', this).text() });
         $(".bottom-part").css({ "backgroundColor": nextTeamColor.colors });
 
-        //CHANGE RANK
+        //CHANGE RANK DATA
         $(".rank-listing-data tr").remove();
 
-        for (var x = 0; x < nextTeam.data.length; x++) {
+        //ADD TOP 3 RANKINGS TO VIEW
+        for (var x = 0; x < 3; x++) {
             var rankToAdd =
                 "<tr><th>" +
+                nextTeam.data[x].stat.toUpperCase() +
+                "</th><th class=\'text-right\'> #" +
+                nextTeam.data[x].rank +
+                "</th></tr>";
+            $(".rank-listing-data").append(rankToAdd);
+        }
+        //ADD ADDITIONAL RANKINGS TO VIEW
+        for (var x = 3; x < nextTeam.data.length; x++) {
+            var rankToAdd =
+                "<tr class=\'not-top-five\'><th>" +
                 nextTeam.data[x].stat.toUpperCase() +
                 "</th><th class=\'text-right\'> #" +
                 nextTeam.data[x].rank +
