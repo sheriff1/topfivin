@@ -73,6 +73,12 @@ td {
     font-size: 4em;
 }
 
+.team-select-team-logo {
+    display: block;
+    margin: auto;
+    max-width: 250px;
+}
+
 .rank-listing-table {
     width: 100%;
 }
