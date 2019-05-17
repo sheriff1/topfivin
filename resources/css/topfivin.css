@@ -1,5 +1,5 @@
 body {
-    padding: 2em 4em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 th,
@@ -17,4 +17,18 @@ td {
 .team-logo {
     max-width: 50px;
     max-height: 50px;
+}
+
+
+/*===================*/
+
+
+/* index.html        */
+
+
+/*===================*/
+
+.header-navigation {
+    height: 4em;
+    border-bottom: 1px solid gray;
 }

@@ -4,16 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Top Fivin'</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="resources/css/topfivin.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css">
 
+
 </head>
 
 <body>
 
-    <h1>Wilkommen to NBA Top Fivin</h1>
+    <nav class="header-navigation d-flex justify-content-end align-items-center">
+        <div class="text-right pr-4">NBA Top Fivin</div>
+    </nav>
+
+    <section class="hero container">
+        <div class="row">
+            <div class="col">
+                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/National_Basketball_Association_logo.svg/346px-National_Basketball_Association_logo.svg.png" alt="NBA Logo">
+            </div>
+            <div class="col">
+                <h1>This is NBA TopFivin</h1>
+                <p>Have you ever found yourself in despair of trying to justify your NBA fandom towards one team? Or found yourself in a situation where a friend is trying to convince you that your team is trash?</p>
+                <p>Mourn no longer; NBA Top-Fivin’ is here. Now you can remind yourself, or tell of your friend with a “Hey bruh, we top five in ties per game though, so watch your mouth!” with ease.</p>
+                <p>Just search a team below, and find out what statistical categories the team ranks top-5 in:</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-select container">
+        <div class="row">
+            <div class="col">
+                <img class="logo" src="" alt="">
+                <a href="#">Show all teams</a>
+            </div>
+            <div class="col">
+                <p class="city-line">The ________</p>
+                <p class="team-name-line">_________</p>
+                <p>are top-five in...</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="rank-listing">
+        <table>
+            <thead>
+                <tr>
+                    <th>Statistic</th>
+                    <th>Ranking</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
@@ -29,5 +74,7 @@
     <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
 
 </body>
+
+</html>
 
 </html>
