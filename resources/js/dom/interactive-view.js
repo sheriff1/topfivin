@@ -10,14 +10,13 @@ $.getJSON("resources/data/rankingsV2.json", function(json) {
     console.log(nameSplit.length);
     if (nameSplit.length == 2) {
         document.getElementsByClassName("city-line")[0].textContent = nameSplit[0];
-        document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[1];
+        document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[1].toUpperCase();
     } else if (nameSplit.length == 3) {
         document.getElementsByClassName("city-line")[0].textContent = nameSplit[0] + " " + nameSplit[1];
-        document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[2];
+        document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[2].toUpperCase();
     }
 
     //RANKINGS
-
     var rankToAdd =
         "<tr><th>" +
         rankings[0].data[0].stat.toUpperCase() +
