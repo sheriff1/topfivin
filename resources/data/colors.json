@@ -1,0 +1,103 @@
+[{
+        "fullName": "Atlanta Hawks",
+        "colors": "#e03a3e"
+    },
+    {
+        "fullName": "Boston Celtics",
+        "colors": "#007A33"
+    },
+    {
+        "fullName": "Brooklyn Nets",
+        "colors": "#000000"
+    },
+    {
+        "fullName": "Charlotte Hornets",
+        "colors": "#1d1160"
+    },
+    {
+        "fullName": "Chicago Bulls",
+        "colors": "#CE1141"
+    },
+    {
+        "fullName": "Cleveland Cavaliers",
+        "colors": "#6F263D"
+    },
+    {
+        "fullName": "Dallas Mavericks",
+        "colors": "#002B5e"
+    },
+    {
+        "fullName": "Denver Nuggets",
+        "colors": "#0E2240"
+    },
+    {
+        "fullName": "Detroit Pistons",
+        "colors": "#006BB6"
+    }, {
+        "fullName": "Golden State Warriors",
+        "colors": "#FDB927"
+    }, {
+        "fullName": "Houston Rockets",
+        "colors": "#000000"
+    },
+    {
+        "fullName": "Indiana Pacers",
+        "colors": "#002D62"
+    }, {
+        "fullName": "Los Angeles Clippers",
+        "colors": "#1d428a"
+    },
+    {
+        "fullName": "Los Angeles Lakers",
+        "colors": "#552583"
+    }, {
+        "fullName": "Memphis Grizzlies",
+        "colors": "#5D76A9"
+    },
+    {
+        "fullName": "Miami Heat",
+        "colors": "#98002E"
+    }, {
+        "fullName": "Milwaukee Bucks",
+        "colors": "#00471B"
+    }, {
+        "fullName": "Minnesota Timberwolves",
+        "colors": "#236192"
+    }, {
+        "fullName": "New Orleans Pelicans",
+        "colors": "#0C2340"
+    }, {
+        "fullName": "New York Knicks",
+        "colors": "#F58426"
+    }, {
+        "fullName": "Oklahoma City Thunder",
+        "colors": "#007ac1"
+    }, {
+        "fullName": "Orlando Magic",
+        "colors": "#0077c0"
+    }, {
+        "fullName": "Philadelphia 76ers",
+        "colors": "#002B5C"
+    }, {
+        "fullName": "Phoenix Suns",
+        "colors": "#1d1160"
+    }, {
+        "fullName": "Portland Trail Blazers",
+        "colors": "#E03A3E"
+    }, {
+        "fullName": "Sacramento Kings",
+        "colors": "#5a2d81"
+    }, {
+        "fullName": "San Antonio Spurs",
+        "colors": "#c4ced4"
+    }, {
+        "fullName": "Toronto Raptors",
+        "colors": "#ce1141"
+    }, {
+        "fullName": "Utah Jazz",
+        "colors": "#002B5C"
+    }, {
+        "fullName": "Washington Wizards",
+        "colors": "#002B5C"
+    }
+]
