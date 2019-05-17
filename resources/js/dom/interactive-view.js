@@ -18,5 +18,22 @@ $.getJSON("resources/data/rankingsV2.json", function(json) {
 
     //RANKINGS
 
+    var rankToAdd =
+        "<tr><th>" +
+        rankings[0].data[0].stat.toUpperCase() +
+        "</th><th class=\'text-right\'> #" +
+        rankings[0].data[0].rank +
+        "</th></tr>" +
+        "<tr><th >" +
+        rankings[1].data[1].stat.toUpperCase() +
+        "</th><th class=\'text-right\'> #" +
+        rankings[1].data[1].rank +
+        "</th></tr>" +
+        "<tr><th>" +
+        rankings[2].data[2].stat.toUpperCase() +
+        "</th><th class=\'text-right\'> #" +
+        rankings[2].data[2].rank +
+        "</th></tr>";
+    $(".rank-listing-data").append(rankToAdd);
 
 });

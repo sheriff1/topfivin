@@ -52,7 +52,7 @@ td {
 .hero-nba-logo {}
 
 .bottom-part {
-    background-color: #00471B;
+    background-color: #F58426;
     color: #fff;
 }
 
@@ -69,8 +69,10 @@ td {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.team-name-line {
+.team-name-line,
+.rank-listing-table th {
     font-size: 4em;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .team-select-team-logo {
@@ -79,6 +81,12 @@ td {
     max-width: 250px;
 }
 
-.rank-listing-table {
+.rank-listing-table,
+.rank-listing-table tr {
+    border-top: 1px solid #fff;
     width: 100%;
+}
+
+.rank-listing-table th {
+    border: 0;
 }
