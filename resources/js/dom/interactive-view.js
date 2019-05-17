@@ -1,6 +1,6 @@
 var rankings = [];
 
-$.getJSON("resources/data/rankings.json", function(json) {
+$.getJSON("resources/data/rankingsV2.json", function(json) {
     rankings = json;
     console.log(rankings[0]);
 

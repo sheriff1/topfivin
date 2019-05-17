@@ -1,0 +1,751 @@
+[{
+        "data": [{
+                "rank": 30,
+                "value": 17,
+                "stat": "Wins"
+            },
+            {
+                "rank": 1,
+                "value": 65,
+                "stat": "Losses"
+            },
+            {
+                "rank": 15,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 30,
+                "value": 2,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "New York Knicks",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/d/dc/NY_Knicks_Logo_2011.png"
+    },
+    {
+        "data": [{
+                "rank": 29,
+                "value": 19,
+                "stat": "Wins"
+            },
+            {
+                "rank": 3,
+                "value": 63,
+                "stat": "Losses"
+            },
+            {
+                "rank": 12,
+                "value": 2,
+                "stat": "Streak"
+            },
+            {
+                "rank": 29,
+                "value": 3,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Phoenix Suns",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/5/56/Phoenix_Suns_2013.png"
+    },
+    {
+        "data": [{
+                "rank": 27,
+                "value": 22,
+                "stat": "Wins"
+            },
+            {
+                "rank": 4,
+                "value": 60,
+                "stat": "Losses"
+            },
+            {
+                "rank": 5,
+                "value": 3,
+                "stat": "Streak"
+            },
+            {
+                "rank": 28,
+                "value": 3,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Chicago Bulls",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 22,
+                "value": 33,
+                "stat": "Wins"
+            },
+            {
+                "rank": 7,
+                "value": 49,
+                "stat": "Losses"
+            },
+            {
+                "rank": 16,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 27,
+                "value": 4,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Dallas Mavericks",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b8/Mavericks_de_Dallas_logo.svg/150px-Mavericks_de_Dallas_logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 18,
+                "value": 39,
+                "stat": "Wins"
+            },
+            {
+                "rank": 13,
+                "value": 43,
+                "stat": "Losses"
+            },
+            {
+                "rank": 8,
+                "value": 3,
+                "stat": "Streak"
+            },
+            {
+                "rank": 26,
+                "value": 4,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Sacramento Kings",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Kings_de_Sacramento_logo.svg/1200px-Kings_de_Sacramento_logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 28,
+                "value": 19,
+                "stat": "Wins"
+            },
+            {
+                "rank": 2,
+                "value": 63,
+                "stat": "Losses"
+            },
+            {
+                "rank": 1,
+                "value": 10,
+                "stat": "Streak"
+            },
+            {
+                "rank": 25,
+                "value": 4,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Cleveland Cavaliers",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/06/Cavs_de_Cleveland_logo_2017.png/150px-Cavs_de_Cleveland_logo_2017.png"
+    },
+    {
+        "data": [{
+                "rank": 21,
+                "value": 36,
+                "stat": "Wins"
+            },
+            {
+                "rank": 10,
+                "value": 46,
+                "stat": "Losses"
+            },
+            {
+                "rank": 7,
+                "value": 3,
+                "stat": "Streak"
+            },
+            {
+                "rank": 24,
+                "value": 5,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Minnesota Timberwolves",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d9/Timberwolves_du_Minnesota_logo_2017.png/200px-Timberwolves_du_Minnesota_logo_2017.png"
+    },
+    {
+        "data": [{
+                "rank": 6,
+                "value": 53,
+                "stat": "Wins"
+            },
+            {
+                "rank": 26,
+                "value": 29,
+                "stat": "Losses"
+            },
+            {
+                "rank": 11,
+                "value": 3,
+                "stat": "Streak"
+            },
+            {
+                "rank": 23,
+                "value": 6,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Portland Trail Blazers",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/1200px-Portland_Trail_Blazers_logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 26,
+                "value": 29,
+                "stat": "Wins"
+            },
+            {
+                "rank": 5,
+                "value": 53,
+                "stat": "Losses"
+            },
+            {
+                "rank": 6,
+                "value": 3,
+                "stat": "Streak"
+            },
+            {
+                "rank": 22,
+                "value": 6,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Atlanta Hawks",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png"
+    },
+    {
+        "data": [{
+                "rank": 19,
+                "value": 39,
+                "stat": "Wins"
+            },
+            {
+                "rank": 14,
+                "value": 43,
+                "stat": "Losses"
+            },
+            {
+                "rank": 21,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 21,
+                "value": 7,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Miami Heat",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 25,
+                "value": 32,
+                "stat": "Wins"
+            },
+            {
+                "rank": 6,
+                "value": 50,
+                "stat": "Losses"
+            },
+            {
+                "rank": 3,
+                "value": 4,
+                "stat": "Streak"
+            },
+            {
+                "rank": 20,
+                "value": 7,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Washington Wizards",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/archive/d/d6/20161212034849%21Wizards2015.png"
+    },
+    {
+        "data": [{
+                "rank": 7,
+                "value": 51,
+                "stat": "Wins"
+            },
+            {
+                "rank": 24,
+                "value": 31,
+                "stat": "Losses"
+            },
+            {
+                "rank": 26,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 19,
+                "value": 8,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Philadelphia 76ers",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/4/48/76ers_2016.png"
+    },
+    {
+        "data": [{
+                "rank": 8,
+                "value": 50,
+                "stat": "Wins"
+            },
+            {
+                "rank": 23,
+                "value": 32,
+                "stat": "Losses"
+            },
+            {
+                "rank": 25,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 18,
+                "value": 8,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Utah Jazz",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/3/3b/Jazz_de_l%27Utah_logo.png"
+    },
+    {
+        "data": [{
+                "rank": 24,
+                "value": 33,
+                "stat": "Wins"
+            },
+            {
+                "rank": 9,
+                "value": 49,
+                "stat": "Losses"
+            },
+            {
+                "rank": 18,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 17,
+                "value": 8,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "New Orleans Pelicans",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/New_Orleans_Pelicans.png/200px-New_Orleans_Pelicans.png"
+    },
+    {
+        "data": [{
+                "rank": 23,
+                "value": 33,
+                "stat": "Wins"
+            },
+            {
+                "rank": 8,
+                "value": 49,
+                "stat": "Losses"
+            },
+            {
+                "rank": 17,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 16,
+                "value": 8,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Memphis Grizzlies",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/1200px-Memphis_Grizzlies.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 16,
+                "value": 41,
+                "stat": "Wins"
+            },
+            {
+                "rank": 15,
+                "value": 41,
+                "stat": "Losses"
+            },
+            {
+                "rank": 13,
+                "value": 2,
+                "stat": "Streak"
+            },
+            {
+                "rank": 15,
+                "value": 8,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Detroit Pistons",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pistons_logo17.svg/1024px-Pistons_logo17.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 14,
+                "value": 42,
+                "stat": "Wins"
+            },
+            {
+                "rank": 16,
+                "value": 40,
+                "stat": "Losses"
+            },
+            {
+                "rank": 9,
+                "value": 3,
+                "stat": "Streak"
+            },
+            {
+                "rank": 14,
+                "value": 8,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Brooklyn Nets",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 20,
+                "value": 37,
+                "stat": "Wins"
+            },
+            {
+                "rank": 11,
+                "value": 45,
+                "stat": "Losses"
+            },
+            {
+                "rank": 19,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 13,
+                "value": 9,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Los Angeles Lakers",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 10,
+                "value": 49,
+                "stat": "Wins"
+            },
+            {
+                "rank": 22,
+                "value": 33,
+                "stat": "Losses"
+            },
+            {
+                "rank": 2,
+                "value": 5,
+                "stat": "Streak"
+            },
+            {
+                "rank": 12,
+                "value": 9,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Oklahoma City Thunder",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4f/Thunder_d%27Oklahoma_City_logo.svg/1200px-Thunder_d%27Oklahoma_City_logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 5,
+                "value": 53,
+                "stat": "Wins"
+            },
+            {
+                "rank": 25,
+                "value": 29,
+                "stat": "Losses"
+            },
+            {
+                "rank": 27,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 11,
+                "value": 10,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Houston Rockets",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Houston_Rockets_logo_2003.png/330px-Houston_Rockets_logo_2003.png"
+    },
+    {
+        "data": [{
+                "rank": 9,
+                "value": 49,
+                "stat": "Wins"
+            },
+            {
+                "rank": 21,
+                "value": 33,
+                "stat": "Losses"
+            },
+            {
+                "rank": 24,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 10,
+                "value": 10,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Boston Celtics",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 17,
+                "value": 39,
+                "stat": "Wins"
+            },
+            {
+                "rank": 12,
+                "value": 43,
+                "stat": "Losses"
+            },
+            {
+                "rank": 20,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 9,
+                "value": 10,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Charlotte Hornets",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 13,
+                "value": 48,
+                "stat": "Wins"
+            },
+            {
+                "rank": 20,
+                "value": 34,
+                "stat": "Losses"
+            },
+            {
+                "rank": 10,
+                "value": 3,
+                "stat": "Streak"
+            },
+            {
+                "rank": 8,
+                "value": 10,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "San Antonio Spurs",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/0/0e/San_Antonio_Spurs_2018.png"
+    },
+    {
+        "data": [{
+                "rank": 15,
+                "value": 42,
+                "stat": "Wins"
+            },
+            {
+                "rank": 17,
+                "value": 40,
+                "stat": "Losses"
+            },
+            {
+                "rank": 4,
+                "value": 4,
+                "stat": "Streak"
+            },
+            {
+                "rank": 7,
+                "value": 10,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Orlando Magic",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bd/Orlando_Magic_logo_2010.png"
+    },
+    {
+        "data": [{
+                "rank": 12,
+                "value": 48,
+                "stat": "Wins"
+            },
+            {
+                "rank": 19,
+                "value": 34,
+                "stat": "Losses"
+            },
+            {
+                "rank": 23,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 6,
+                "value": 11,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "LA Clippers",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/d/d6/Los_Angeles_Clippers_logo_2010.png"
+    },
+    {
+        "data": [{
+                "rank": 11,
+                "value": 48,
+                "stat": "Wins"
+            },
+            {
+                "rank": 18,
+                "value": 34,
+                "stat": "Losses"
+            },
+            {
+                "rank": 22,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 5,
+                "value": 11,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Indiana Pacers",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Pacers_de_l%27Indiana_logo.svg/1180px-Pacers_de_l%27Indiana_logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 4,
+                "value": 54,
+                "stat": "Wins"
+            },
+            {
+                "rank": 27,
+                "value": 28,
+                "stat": "Losses"
+            },
+            {
+                "rank": 28,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 4,
+                "value": 12,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Denver Nuggets",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/35/Nuggets_de_Denver_2018.png/180px-Nuggets_de_Denver_2018.png"
+    },
+    {
+        "data": [{
+                "rank": 2,
+                "value": 58,
+                "stat": "Wins"
+            },
+            {
+                "rank": 29,
+                "value": 24,
+                "stat": "Losses"
+            },
+            {
+                "rank": 14,
+                "value": 2,
+                "stat": "Streak"
+            },
+            {
+                "rank": 3,
+                "value": 12,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Toronto Raptors",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/8/89/Raptors2015.png"
+    },
+    {
+        "data": [{
+                "rank": 3,
+                "value": 57,
+                "stat": "Wins"
+            },
+            {
+                "rank": 28,
+                "value": 25,
+                "stat": "Losses"
+            },
+            {
+                "rank": 29,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 2,
+                "value": 13,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Golden State Warriors",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png"
+    },
+    {
+        "data": [{
+                "rank": 1,
+                "value": 60,
+                "stat": "Wins"
+            },
+            {
+                "rank": 30,
+                "value": 22,
+                "stat": "Losses"
+            },
+            {
+                "rank": 30,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 1,
+                "value": 14,
+                "stat": "Division Wins"
+            }
+        ],
+        "fullName": "Milwaukee Bucks",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png"
+    }
+]
