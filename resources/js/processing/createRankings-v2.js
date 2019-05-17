@@ -43,6 +43,24 @@ function buildSimple(teams, standings) {
             stat: "Division Wins"
         }
 
+        toBeAdded.data[4] = {
+            rank: "",
+            value: Number(_.findWhere(standings, { teamId: teams[i].teamId }).division.loss),
+            stat: "Division Losses"
+        }
+
+        toBeAdded.data[5] = {
+            rank: "",
+            value: Number(_.findWhere(standings, { teamId: teams[i].teamId }).conference.win),
+            stat: "Conference Wins"
+        }
+
+        toBeAdded.data[6] = {
+            rank: "",
+            value: Number(_.findWhere(standings, { teamId: teams[i].teamId }).conference.loss),
+            stat: "Conference Losses"
+        }
+
         toBeAdded.fullName = teams[i].fullName;
         toBeAdded.logo = teams[i].logo;
         toBeAdded.color =

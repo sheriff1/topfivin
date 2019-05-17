@@ -8,8 +8,6 @@ $.getJSON("resources/data/colors.json", function(json) {
 $.getJSON("resources/data/rankingsV2.json", function(json) {
     rankings = json;
 
-    console.log(rankings[0]);
-
     rankings = _.sortBy(rankings, 'fullName');
 
     for (var i = 0; i < rankings.length; i++) {
@@ -29,29 +27,20 @@ $.getJSON("resources/data/rankingsV2.json", function(json) {
         document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[2].toUpperCase();
     }
 
-    //RANKINGS
-    var rankToAdd =
-        "<tr><th>" +
-        rankings[0].data[0].stat.toUpperCase() +
-        "</th><th class=\'text-right\'> #" +
-        rankings[0].data[0].rank +
-        "</th></tr>" +
-        "<tr><th >" +
-        rankings[0].data[1].stat.toUpperCase() +
-        "</th><th class=\'text-right\'> #" +
-        rankings[0].data[1].rank +
-        "</th></tr>" +
-        "<tr><th>" +
-        rankings[0].data[2].stat.toUpperCase() +
-        "</th><th class=\'text-right\'> #" +
-        rankings[0].data[2].rank +
-        "</th></tr>";
-    $(".rank-listing-data").append(rankToAdd);
+
+    for (var x = 0; x < rankings[0].data.length; x++) {
+        var rankToAdd =
+            "<tr><th>" +
+            rankings[0].data[x].stat.toUpperCase() +
+            "</th><th class=\'text-right\'> #" +
+            rankings[0].data[x].rank +
+            "</th></tr>";
+        $(".rank-listing-data").append(rankToAdd);
+    }
 });
 
 $(function() {
     $(".dropdown").change(function() {
-        //console.log($('option:selected', this).text());
 
         var nextTeam = _.findWhere(rankings, { fullName: $('option:selected', this).text() });
 
@@ -76,23 +65,14 @@ $(function() {
         //CHANGE RANK
         $(".rank-listing-data tr").remove();
 
-        var rankToAdd =
-            "<tr><th>" +
-            nextTeam.data[0].stat.toUpperCase() +
-            "</th><th class=\'text-right\'> #" +
-            nextTeam.data[0].rank +
-            "</th></tr>" +
-            "<tr><th >" +
-            nextTeam.data[1].stat.toUpperCase() +
-            "</th><th class=\'text-right\'> #" +
-            nextTeam.data[1].rank +
-            "</th></tr>" +
-            "<tr><th>" +
-            nextTeam.data[2].stat.toUpperCase() +
-            "</th><th class=\'text-right\'> #" +
-            nextTeam.data[2].rank +
-            "</th></tr>";
-        $(".rank-listing-data").append(rankToAdd);
-
+        for (var x = 0; x < nextTeam.data.length; x++) {
+            var rankToAdd =
+                "<tr><th>" +
+                nextTeam.data[x].stat.toUpperCase() +
+                "</th><th class=\'text-right\'> #" +
+                nextTeam.data[x].rank +
+                "</th></tr>";
+            $(".rank-listing-data").append(rankToAdd);
+        }
     });
 });
