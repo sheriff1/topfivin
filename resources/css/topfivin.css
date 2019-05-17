@@ -49,10 +49,8 @@ td {
     font-family: 'Open Sans', sans-serif;
 }
 
-.hero-nba-logo {}
-
 .bottom-part {
-    background-color: #F58426;
+    background-color: #e03a3e;
     color: #fff;
 }
 
@@ -65,7 +63,7 @@ td {
 .top-five-in-line {
     font-size: 2em;
     font-weight: 600;
-    margin-bottom: 0;
+    margin: -20px 0;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -73,6 +71,15 @@ td {
 .rank-listing-table th {
     font-size: 4em;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.rank-listing-table th {
+    padding: 20px;
+    letter-spacing: -2px;
+}
+
+.team-select-team-logo-container {
+    border-right: 1px solid white;
 }
 
 .team-select-team-logo {

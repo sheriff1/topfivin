@@ -7,22 +7,25 @@ $.getJSON("resources/data/colors.json", function(json) {
 
 $.getJSON("resources/data/rankingsV2.json", function(json) {
     rankings = json;
+
     console.log(rankings[0]);
+
+    rankings = _.sortBy(rankings, 'fullName');
 
     for (var i = 0; i < rankings.length; i++) {
         var dropdownTeamItem = "<option class=\"dropdown-item\">" + rankings[i]['fullName'] + "</option>";
         $(".dropdown").append(dropdownTeamItem);
     }
 
-    //NAME AND LOGO FOR HERO
+    //NAME AND LOGO FOR TEAM SELECT
     $(".team-select-team-logo").attr("src", rankings[0]['logo']);
     let nameSplit = rankings[0]['fullName'].split(" ");
 
     if (nameSplit.length == 2) {
-        document.getElementsByClassName("city-line")[0].textContent = nameSplit[0];
+        document.getElementsByClassName("city-line")[0].textContent = "The " + nameSplit[0];
         document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[1].toUpperCase();
     } else if (nameSplit.length == 3) {
-        document.getElementsByClassName("city-line")[0].textContent = nameSplit[0] + " " + nameSplit[1];
+        document.getElementsByClassName("city-line")[0].textContent = "The " + nameSplit[0] + " " + nameSplit[1];
         document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[2].toUpperCase();
     }
 
@@ -56,7 +59,7 @@ $(function() {
         let nameSplit = nextTeam['fullName'].split(" ");
 
         if (nameSplit.length == 2) {
-            document.getElementsByClassName("city-line")[0].textContent = nameSplit[0];
+            document.getElementsByClassName("city-line")[0].textContent = "The " + nameSplit[0];
             document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[1].toUpperCase();
         } else if (nameSplit.length == 3) {
             document.getElementsByClassName("city-line")[0].textContent = nameSplit[0] + " " + nameSplit[1];
