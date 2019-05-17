@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Top Fivin'</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="resources/css/topfivin.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&Open+Sans:300,400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/topfivin.css">
 
 
 </head>
@@ -16,15 +16,16 @@
 <body>
 
     <nav class="header-navigation d-flex justify-content-end align-items-center">
-        <div class="text-right pr-4">NBA Top Fivin</div>
+        <img class="header-navigation-nba-logo" src="https://www.underconsideration.com/brandnew/archives/nba_logo_wordmark.png" alt="nba logo in header">
+        <h1 class="header-navigation-tagline text-right pl-1">Top Fivin</h1>
     </nav>
 
-    <section class="hero container">
-        <div class="row">
-            <div class="col">
-                <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/National_Basketball_Association_logo.svg/346px-National_Basketball_Association_logo.svg.png" alt="NBA Logo">
+    <section class="container">
+        <div class="hero row py-4">
+            <div class="col align-self-center">
+                <img class="img-fluid hero-nba-logo " src="https://www.underconsideration.com/brandnew/archives/nba_logo_wordmark.png" alt="NBA Logo">
             </div>
-            <div class="col">
+            <div class="col align-self-center">
                 <h1>This is NBA TopFivin</h1>
                 <p>Have you ever found yourself in despair of trying to justify your NBA fandom towards one team? Or found yourself in a situation where a friend is trying to convince you that your team is trash?</p>
                 <p>Mourn no longer; NBA Top-Fivin’ is here. Now you can remind yourself, or tell of your friend with a “Hey bruh, we top five in ties per game though, so watch your mouth!” with ease.</p>
@@ -33,31 +34,33 @@
         </div>
     </section>
 
-    <section class="team-select container">
-        <div class="row">
-            <div class="col">
-                <img class="logo" src="" alt="">
-                <a href="#">Show all teams</a>
+    <section class="bottom-part">
+        <section class="container">
+            <div class="team-select row">
+                <div class="col align-self-center text-center">
+                    <img class="logo" src="" alt="">
+                    <a href="teamView-V0.html">Show all teams</a>
+                </div>
+                <div class="col align-self-center">
+                    <p class="city-line">The ________</p>
+                    <p class="team-name-line">_________</p>
+                    <p class="top-five-in-line">are top-five in...</p>
+                </div>
             </div>
-            <div class="col">
-                <p class="city-line">The ________</p>
-                <p class="team-name-line">_________</p>
-                <p>are top-five in...</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="rank-listing">
-        <table>
-            <thead>
-                <tr>
-                    <th>Statistic</th>
-                    <th>Ranking</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+        <section class="rank-listing">
+            <table class="rank-listing-table">
+                <thead class="rank-listing-label">
+                    <tr>
+                        <th>Statistic</th>
+                        <th>Ranking</th>
+                    </tr>
+                </thead>
+                <tbody class="rank-listing-data">
+                </tbody>
+            </table>
+        </section>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
