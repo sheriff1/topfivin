@@ -15,6 +15,11 @@ $.getJSON("resources/data/rankingsV2.json", function(json) {
         $(".dropdown").append(dropdownTeamItem);
     }
 
+    //SORT INITIAL ITEM'S STATISTICS BY RANK
+    rankings[0].data = rankings[0].data.sort(function(a, b) {
+        return a.rank - b.rank;
+    });
+
     //NAME AND LOGO FOR TEAM SELECT
     $(".team-select-team-logo").attr("src", rankings[0]['logo']);
     let nameSplit = rankings[0]['fullName'].split(" ");
@@ -26,7 +31,6 @@ $.getJSON("resources/data/rankingsV2.json", function(json) {
         document.getElementsByClassName("city-line")[0].textContent = "The " + nameSplit[0] + " " + nameSplit[1];
         document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[2].toUpperCase();
     }
-
 
     for (var x = 0; x < rankings[0].data.length; x++) {
         var rankToAdd =
@@ -43,6 +47,11 @@ $(function() {
     $(".dropdown").change(function() {
 
         var nextTeam = _.findWhere(rankings, { fullName: $('option:selected', this).text() });
+
+        //SORT NEXT TEAM'S STATISTICS BY RANK
+        nextTeam.data = nextTeam.data.sort(function(a, b) {
+            return a.rank - b.rank;
+        });
 
         //CHANGE TEAM NAME & CITY NAME
         let nameSplit = nextTeam['fullName'].split(" ");
