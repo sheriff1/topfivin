@@ -3,13 +3,17 @@ const _ = require('underscore');
 
 var gameDetailsRaw = [];
 var gameDetailsByTeam = [];
-var counter = 0;
 
 gameDetailsRaw = JSON.parse(fs.readFileSync('gameDetailsRaw.json', 'utf8'));
 
 for (var i = 0; i < gameDetailsRaw.length; i++) {
     //VISITING TEAM
-    if (gameDetailsRaw[i].statusCode == 200 && gameDetailsRaw[i].body.api.game[0].gameId != 5714 && gameDetailsRaw[i].body.api.game[0].gameId != 5713 && gameDetailsRaw[i].body.api.game[0].gameId != 5712) { //game 5712-5714 == all star game
+    if (gameDetailsRaw[i].statusCode == 200 &&
+        gameDetailsRaw[i].body.api.game[0].gameId != 5712 &&
+        gameDetailsRaw[i].body.api.game[0].gameId != 5713 &&
+        gameDetailsRaw[i].body.api.game[0].gameId != 5714 &&
+        gameDetailsRaw[i].body.api.game[0].gameId != 5617
+    ) { //game 5712-5714 == all star games, game 5617 is some team world team africa game?
 
         if (_.findWhere(gameDetailsByTeam, { fullName: gameDetailsRaw[i].body.api.game[0].vTeam.fullName }) == null) {
             //ADD ITEM TO ARRAY FOR VISITING TEAM
@@ -163,8 +167,6 @@ for (var i = 0; i < gameDetailsRaw.length; i++) {
             }
 
         }
-        counter++;
-        console.log(counter);
     }
 }
 
