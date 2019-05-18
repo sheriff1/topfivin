@@ -2,41 +2,18 @@ var rankings = [];
 
 $.getJSON("resources/data/rankings.json", function(json) {
     rankings = json;
-    console.log(rankings[0]);
+    var columnsForTable = [];
+
+    columnsForTable.push({ field: "logo", title: "Logo" });
+    columnsForTable.push({ field: "fullName", title: "Team", sortable: true });
+    for (var i = 0; i < rankings[0].data.length; i++) {
+        columnsForTable.push({ field: "data." + i + ".value", title: rankings[0].data[i].stat, sortable: true });
+        columnsForTable.push({ field: "data." + i + ".rank", title: rankings[0].data[i].stat + " Ranking", sortable: true });
+    }
 
     $('#table').bootstrapTable({
         url: 'resources/data/rankings.json',
-        columns: [{
-            field: 'logo',
-            title: 'Logo'
-        }, {
-            field: 'fullName',
-            title: 'Name'
-        }, {
-            field: 'wins',
-            title: 'Wins'
-        }, {
-            field: 'winsRank',
-            title: 'Wins Rank'
-        }, {
-            field: 'losses',
-            title: 'Losses'
-        }, {
-            field: 'lossesRank',
-            title: 'Losses Rank'
-        }, {
-            field: 'streak',
-            title: 'Recent Streak'
-        }, {
-            field: 'streakRank',
-            title: 'Recent Streak Rank'
-        }, {
-            field: 'divisionWins',
-            title: 'Division Wins'
-        }, {
-            field: 'divisionWinsRank',
-            title: 'Division Wins Rank'
-        }]
+        columns: columnsForTable
     });
 
     // for (var i = rankings.length - 1; i >= 0; i--) {

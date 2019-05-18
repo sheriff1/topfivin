@@ -5,7 +5,7 @@ $.getJSON("resources/data/colors.json", function(json) {
     colors = json;
 });
 
-$.getJSON("resources/data/rankingsV2.json", function(json) {
+$.getJSON("resources/data/rankings.json", function(json) {
     rankings = json;
 
     rankings = _.sortBy(rankings, 'fullName');
