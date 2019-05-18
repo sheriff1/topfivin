@@ -9,29 +9,68 @@ let teams = JSON.parse(fs.readFileSync('../../data/teams.json', 'utf8'));
 let standings = JSON.parse(fs.readFileSync('../../data/standings.json', 'utf8'));
 // console.log(standings);
 
-let gameDetails = JSON.parse(fs.readFileSync('../../data/gameDetailsByTeam-sample.json', 'utf8'));
+let gameDetails = JSON.parse(fs.readFileSync('../../data/gameDetailsByTeam.json', 'utf8'));
 
 buildStandings(teams, standings);
-//buildGameDetails(rankings, gameDetails);
+buildGameDetails(rankings, gameDetails);
 sortSimple(rankings);
-
 
 //* UNCOMMENT OUT BELOW WHEN GAME DETAILS ARE READY !!!
 
-// function buildGameDetails(rankings, gameDetails) {
-//     console.log("buildGameDetails called");
+function buildGameDetails(rankings, gameDetails) {
+    console.log("buildGameDetails called");
 
-//     for (var i = 0; i < gameDetails.length; i++) {
-//         //Find team by name
-//         var team = _.findWhere(rankings, { fullName: gameDetails[i].fullName });
-//         //Add data[x] for each item 
-//         team.data[11] = {
-//             rank: 4,
-//             value: gameDetails[i].gameDuration,
-//             stat: "Game Duration"
-//         }
-//     }
-// }
+    for (var i = 0; i < gameDetails.length; i++) {
+        //Find team by name
+        var team = _.findWhere(rankings, { fullName: gameDetails[i].fullName });
+        //Add data[x] for each item 
+        team.data[11] = {
+            rank: 4,
+            value: gameDetails[i].gameDuration,
+            stat: "Game Duration"
+        }
+        team.data[12] = {
+            rank: 4,
+            value: gameDetails[i].timesTied,
+            stat: "Times Tied"
+        }
+        team.data[13] = {
+            rank: 4,
+            value: gameDetails[i].leadChanges,
+            stat: "Lead Changes"
+        }
+        team.data[14] = {
+            rank: 4,
+            value: gameDetails[i].points,
+            stat: "Points"
+        }
+        team.data[15] = {
+            rank: 4,
+            value: gameDetails[i].q1Points,
+            stat: "Q1 Points"
+        }
+        team.data[16] = {
+            rank: 4,
+            value: gameDetails[i].q2Points,
+            stat: "Q2 Points"
+        }
+        team.data[17] = {
+            rank: 4,
+            value: gameDetails[i].q3Points,
+            stat: "Q3 Points"
+        }
+        team.data[18] = {
+            rank: 4,
+            value: gameDetails[i].q4Points,
+            stat: "Q4 Points"
+        }
+        team.data[19] = {
+            rank: 4,
+            value: gameDetails[i].overtimePoints,
+            stat: "Overtime Points"
+        }
+    }
+}
 
 
 function buildStandings(teams, standings) {
@@ -130,6 +169,6 @@ function sortSimple(rankings) {
         }
     }
 
-    fs.appendFile("../../data/rankingsV2.json", JSON.stringify(rankings), function(err) { if (err) { return console.log(err); } });
+    fs.appendFile("../../data/rankings.json", JSON.stringify(rankings), function(err) { if (err) { return console.log(err); } });
 
 }
