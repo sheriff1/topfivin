@@ -176,7 +176,7 @@ for (var i = startOfRegSeason; i < endForTesting; i++) {
             }
             counter++;
             if (counter == 48) {
-                fs.appendFile("gameDetailsByTeam.json", JSON.stringify(gameDetailsByTeam), function(err) {
+                fs.appendFile("/Library/WebServer/Documents/topfivin/resources/data/gameDetailsByTeam.json", JSON.stringify(gameDetailsByTeam), function(err) {
                     if (err) {
                         return console.log(err);
                     }
