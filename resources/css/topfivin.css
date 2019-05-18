@@ -101,3 +101,12 @@ td {
 .not-top-five {
     display: none;
 }
+
+.allTeamsTable {
+    padding: 0 4em 2em 4em;
+}
+
+.backToIndex {
+    text-align: center;
+    margin: 2em;
+}
