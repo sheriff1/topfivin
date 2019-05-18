@@ -4,8 +4,7 @@ const _ = require('underscore');
 var gameDetailsRaw = [];
 var gameDetailsByTeam = [];
 
-gameDetailsRaw = JSON.parse(fs.readFileSync('/Library/WebServer/Documents/topfivin/resources/data/gameDetailsRaw.json', 'utf8'));
-console.log(gameDetailsRaw);
+gameDetailsRaw = JSON.parse(fs.readFileSync('resources/data/gameDetailsRaw-sample.json', 'utf8'));
 
 for (var i = 0; i < gameDetailsRaw.length; i++) {
 
@@ -164,7 +163,7 @@ for (var i = 0; i < gameDetailsRaw.length; i++) {
     }
 }
 
-fs.appendFile("/Library/WebServer/Documents/topfivin/resources/data/gameDetailsByTeam.json", JSON.stringify(gameDetailsByTeam), function(err) {
+fs.appendFile("resources/data/gameDetailsByTeam.json", JSON.stringify(gameDetailsByTeam), function(err) {
     if (err) {
         return console.log(err);
     }

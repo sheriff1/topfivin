@@ -3,17 +3,37 @@ const _ = require('underscore');
 
 let rankings = [];
 
-let teams = JSON.parse(fs.readFileSync('/Library/WebServer/Documents/topfivin/resources/data/teams.json', 'utf8'));
+let teams = JSON.parse(fs.readFileSync('../../data/teams.json', 'utf8'));
 // console.log(teams);
 
-let standings = JSON.parse(fs.readFileSync('/Library/WebServer/Documents/topfivin/resources/data/standings.json', 'utf8'));
+let standings = JSON.parse(fs.readFileSync('../../data/standings.json', 'utf8'));
 // console.log(standings);
-buildSimple(teams, standings);
+
+let gameDetails = JSON.parse(fs.readFileSync('../../data/gameDetailsByTeam-sample.json', 'utf8'));
+
+buildStandings(teams, standings);
+buildGameDetails(rankings, gameDetails);
 sortSimple(rankings);
 
-function buildSimple(teams, standings) {
+function buildGameDetails(rankings, gameDetails) {
+    console.log("buildGameDetails called");
 
-    console.log("buildSimple called");
+    for (var i = 0; i < gameDetails.length; i++) {
+        //Find team by name
+        var team = _.findWhere(rankings, { fullName: gameDetails[i].fullName });
+        //Add data[x] for each item 
+        team.data[11] = {
+            rank: 4,
+            value: gameDetails[i].gameDuration,
+            stat: "Game Duration"
+        }
+    }
+}
+
+
+function buildStandings(teams, standings) {
+
+    console.log("buildStandings called");
 
     //Builds 'ranking' array to be manipulated
     for (var i = 0; i <= teams.length - 1; i++) {
@@ -87,9 +107,8 @@ function buildSimple(teams, standings) {
 
         toBeAdded.fullName = teams[i].fullName;
         toBeAdded.logo = teams[i].logo;
-        toBeAdded.color =
 
-            rankings.push(toBeAdded);
+        rankings.push(toBeAdded);
     }
 }
 
@@ -108,6 +127,6 @@ function sortSimple(rankings) {
         }
     }
 
-    fs.appendFile("/Library/WebServer/Documents/topfivin/resources/data/rankingsV2.json", JSON.stringify(rankings), function(err) { if (err) { return console.log(err); } });
+    fs.appendFile("../../data/rankingsV2.json", JSON.stringify(rankings), function(err) { if (err) { return console.log(err); } });
 
 }

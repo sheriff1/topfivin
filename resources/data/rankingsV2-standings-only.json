@@ -53,210 +53,11 @@
                 "rank": 30,
                 "value": 14,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 30,
-                "value": 137,
-                "stat": "Game Duration"
             }
         ],
         "fullName": "Milwaukee Bucks",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png"
-    },
-    {
-        "data": [{
-                "rank": 17,
-                "value": 39,
-                "stat": "Wins"
-            },
-            {
-                "rank": 12,
-                "value": 43,
-                "stat": "Losses"
-            },
-            {
-                "rank": 20,
-                "value": 1,
-                "stat": "Streak"
-            },
-            {
-                "rank": 9,
-                "value": 10,
-                "stat": "Division Wins"
-            },
-            {
-                "rank": 22,
-                "value": 6,
-                "stat": "Division Losses"
-            },
-            {
-                "rank": 14,
-                "value": 29,
-                "stat": "Conference Wins"
-            },
-            {
-                "rank": 19,
-                "value": 23,
-                "stat": "Conference Losses"
-            },
-            {
-                "rank": 16,
-                "value": 25,
-                "stat": "Home Wins"
-            },
-            {
-                "rank": 15,
-                "value": 16,
-                "stat": "Home Losses"
-            },
-            {
-                "rank": 21,
-                "value": 14,
-                "stat": "Away Wins"
-            },
-            {
-                "rank": 11,
-                "value": 27,
-                "stat": "Away Losses"
-            },
-            {
-                "rank": 29,
-                "value": 137,
-                "stat": "Game Duration"
-            }
-        ],
-        "fullName": "Charlotte Hornets",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png"
-    },
-    {
-        "data": [{
-                "rank": 9,
-                "value": 49,
-                "stat": "Wins"
-            },
-            {
-                "rank": 21,
-                "value": 33,
-                "stat": "Losses"
-            },
-            {
-                "rank": 24,
-                "value": 1,
-                "stat": "Streak"
-            },
-            {
-                "rank": 10,
-                "value": 10,
-                "stat": "Division Wins"
-            },
-            {
-                "rank": 23,
-                "value": 6,
-                "stat": "Division Losses"
-            },
-            {
-                "rank": 3,
-                "value": 35,
-                "stat": "Conference Wins"
-            },
-            {
-                "rank": 27,
-                "value": 17,
-                "stat": "Conference Losses"
-            },
-            {
-                "rank": 11,
-                "value": 28,
-                "stat": "Home Wins"
-            },
-            {
-                "rank": 20,
-                "value": 13,
-                "stat": "Home Losses"
-            },
-            {
-                "rank": 7,
-                "value": 21,
-                "stat": "Away Wins"
-            },
-            {
-                "rank": 22,
-                "value": 20,
-                "stat": "Away Losses"
-            },
-            {
-                "rank": 28,
-                "value": 139,
-                "stat": "Game Duration"
-            }
-        ],
-        "fullName": "Boston Celtics",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
-    },
-    {
-        "data": [{
-                "rank": 7,
-                "value": 51,
-                "stat": "Wins"
-            },
-            {
-                "rank": 24,
-                "value": 31,
-                "stat": "Losses"
-            },
-            {
-                "rank": 26,
-                "value": 1,
-                "stat": "Streak"
-            },
-            {
-                "rank": 19,
-                "value": 8,
-                "stat": "Division Wins"
-            },
-            {
-                "rank": 17,
-                "value": 8,
-                "stat": "Division Losses"
-            },
-            {
-                "rank": 8,
-                "value": 31,
-                "stat": "Conference Wins"
-            },
-            {
-                "rank": 23,
-                "value": 21,
-                "stat": "Conference Losses"
-            },
-            {
-                "rank": 6,
-                "value": 31,
-                "stat": "Home Wins"
-            },
-            {
-                "rank": 24,
-                "value": 10,
-                "stat": "Home Losses"
-            },
-            {
-                "rank": 11,
-                "value": 20,
-                "stat": "Away Wins"
-            },
-            {
-                "rank": 20,
-                "value": 21,
-                "stat": "Away Losses"
-            },
-            {
-                "rank": 27,
-                "value": 139,
-                "stat": "Game Duration"
-            }
-        ],
-        "fullName": "Philadelphia 76ers",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/4/48/76ers_2016.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png",
+        "color": 27
     },
     {
         "data": [{
@@ -313,80 +114,11 @@
                 "rank": 29,
                 "value": 14,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 26,
-                "value": 145,
-                "stat": "Game Duration"
             }
         ],
         "fullName": "Golden State Warriors",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png"
-    },
-    {
-        "data": [{
-                "rank": 10,
-                "value": 49,
-                "stat": "Wins"
-            },
-            {
-                "rank": 22,
-                "value": 33,
-                "stat": "Losses"
-            },
-            {
-                "rank": 2,
-                "value": 5,
-                "stat": "Streak"
-            },
-            {
-                "rank": 12,
-                "value": 9,
-                "stat": "Division Wins"
-            },
-            {
-                "rank": 18,
-                "value": 7,
-                "stat": "Division Losses"
-            },
-            {
-                "rank": 15,
-                "value": 28,
-                "stat": "Conference Wins"
-            },
-            {
-                "rank": 15,
-                "value": 24,
-                "stat": "Conference Losses"
-            },
-            {
-                "rank": 12,
-                "value": 27,
-                "stat": "Home Wins"
-            },
-            {
-                "rank": 19,
-                "value": 14,
-                "stat": "Home Losses"
-            },
-            {
-                "rank": 5,
-                "value": 22,
-                "stat": "Away Wins"
-            },
-            {
-                "rank": 26,
-                "value": 19,
-                "stat": "Away Losses"
-            },
-            {
-                "rank": 25,
-                "value": 145,
-                "stat": "Game Duration"
-            }
-        ],
-        "fullName": "Oklahoma City Thunder",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4f/Thunder_d%27Oklahoma_City_logo.svg/1200px-Thunder_d%27Oklahoma_City_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Warriors_de_Golden_State_logo.svg/1200px-Warriors_de_Golden_State_logo.svg.png",
+        "color": 17
     },
     {
         "data": [{
@@ -443,15 +175,11 @@
                 "rank": 28,
                 "value": 15,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 24,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Toronto Raptors",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/8/89/Raptors2015.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/8/89/Raptors2015.png",
+        "color": 3
     },
     {
         "data": [{
@@ -508,15 +236,72 @@
                 "rank": 27,
                 "value": 19,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 23,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Houston Rockets",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Houston_Rockets_logo_2003.png/330px-Houston_Rockets_logo_2003.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/Houston_Rockets_logo_2003.png/330px-Houston_Rockets_logo_2003.png",
+        "color": 21
+    },
+    {
+        "data": [{
+                "rank": 10,
+                "value": 49,
+                "stat": "Wins"
+            },
+            {
+                "rank": 22,
+                "value": 33,
+                "stat": "Losses"
+            },
+            {
+                "rank": 2,
+                "value": 5,
+                "stat": "Streak"
+            },
+            {
+                "rank": 12,
+                "value": 9,
+                "stat": "Division Wins"
+            },
+            {
+                "rank": 18,
+                "value": 7,
+                "stat": "Division Losses"
+            },
+            {
+                "rank": 15,
+                "value": 28,
+                "stat": "Conference Wins"
+            },
+            {
+                "rank": 15,
+                "value": 24,
+                "stat": "Conference Losses"
+            },
+            {
+                "rank": 12,
+                "value": 27,
+                "stat": "Home Wins"
+            },
+            {
+                "rank": 19,
+                "value": 14,
+                "stat": "Home Losses"
+            },
+            {
+                "rank": 5,
+                "value": 22,
+                "stat": "Away Wins"
+            },
+            {
+                "rank": 26,
+                "value": 19,
+                "stat": "Away Losses"
+            }
+        ],
+        "fullName": "Oklahoma City Thunder",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4f/Thunder_d%27Oklahoma_City_logo.svg/1200px-Thunder_d%27Oklahoma_City_logo.svg.png",
+        "color": 6
     },
     {
         "data": [{
@@ -573,15 +358,11 @@
                 "rank": 25,
                 "value": 19,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 22,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "LA Clippers",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Los_Angeles_Clippers_%282015%29.svg/789px-Los_Angeles_Clippers_%282015%29.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Los_Angeles_Clippers_%282015%29.svg/789px-Los_Angeles_Clippers_%282015%29.svg.png",
+        "color": 16
     },
     {
         "data": [{
@@ -638,15 +419,11 @@
                 "rank": 24,
                 "value": 20,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 21,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Portland Trail Blazers",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/1200px-Portland_Trail_Blazers_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/1200px-Portland_Trail_Blazers_logo.svg.png",
+        "color": 2
     },
     {
         "data": [{
@@ -703,15 +480,72 @@
                 "rank": 23,
                 "value": 20,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 20,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Utah Jazz",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/3/3b/Jazz_de_l%27Utah_logo.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/3/3b/Jazz_de_l%27Utah_logo.png",
+        "color": 4
+    },
+    {
+        "data": [{
+                "rank": 9,
+                "value": 49,
+                "stat": "Wins"
+            },
+            {
+                "rank": 21,
+                "value": 33,
+                "stat": "Losses"
+            },
+            {
+                "rank": 24,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 10,
+                "value": 10,
+                "stat": "Division Wins"
+            },
+            {
+                "rank": 23,
+                "value": 6,
+                "stat": "Division Losses"
+            },
+            {
+                "rank": 3,
+                "value": 35,
+                "stat": "Conference Wins"
+            },
+            {
+                "rank": 27,
+                "value": 17,
+                "stat": "Conference Losses"
+            },
+            {
+                "rank": 11,
+                "value": 28,
+                "stat": "Home Wins"
+            },
+            {
+                "rank": 20,
+                "value": 13,
+                "stat": "Home Losses"
+            },
+            {
+                "rank": 7,
+                "value": 21,
+                "stat": "Away Wins"
+            },
+            {
+                "rank": 22,
+                "value": 20,
+                "stat": "Away Losses"
+            }
+        ],
+        "fullName": "Boston Celtics",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png",
+        "color": 26
     },
     {
         "data": [{
@@ -768,15 +602,72 @@
                 "rank": 21,
                 "value": 21,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 19,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Denver Nuggets",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/35/Nuggets_de_Denver_2018.png/180px-Nuggets_de_Denver_2018.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/35/Nuggets_de_Denver_2018.png/180px-Nuggets_de_Denver_2018.png",
+        "color": 29
+    },
+    {
+        "data": [{
+                "rank": 7,
+                "value": 51,
+                "stat": "Wins"
+            },
+            {
+                "rank": 24,
+                "value": 31,
+                "stat": "Losses"
+            },
+            {
+                "rank": 26,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 19,
+                "value": 8,
+                "stat": "Division Wins"
+            },
+            {
+                "rank": 17,
+                "value": 8,
+                "stat": "Division Losses"
+            },
+            {
+                "rank": 8,
+                "value": 31,
+                "stat": "Conference Wins"
+            },
+            {
+                "rank": 23,
+                "value": 21,
+                "stat": "Conference Losses"
+            },
+            {
+                "rank": 6,
+                "value": 31,
+                "stat": "Home Wins"
+            },
+            {
+                "rank": 24,
+                "value": 10,
+                "stat": "Home Losses"
+            },
+            {
+                "rank": 11,
+                "value": 20,
+                "stat": "Away Wins"
+            },
+            {
+                "rank": 20,
+                "value": 21,
+                "stat": "Away Losses"
+            }
+        ],
+        "fullName": "Philadelphia 76ers",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/4/48/76ers_2016.png",
+        "color": 7
     },
     {
         "data": [{
@@ -833,15 +724,11 @@
                 "rank": 19,
                 "value": 21,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 18,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Miami Heat",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png",
+        "color": 12
     },
     {
         "data": [{
@@ -898,15 +785,11 @@
                 "rank": 18,
                 "value": 22,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 17,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Indiana Pacers",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Pacers_de_l%27Indiana_logo.svg/1180px-Pacers_de_l%27Indiana_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Pacers_de_l%27Indiana_logo.svg/1180px-Pacers_de_l%27Indiana_logo.svg.png",
+        "color": 19
     },
     {
         "data": [{
@@ -963,15 +846,11 @@
                 "rank": 17,
                 "value": 22,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 16,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Brooklyn Nets",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png",
+        "color": 25
     },
     {
         "data": [{
@@ -1028,15 +907,11 @@
                 "rank": 16,
                 "value": 24,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 15,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Orlando Magic",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bd/Orlando_Magic_logo_2010.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bd/Orlando_Magic_logo_2010.png",
+        "color": 8
     },
     {
         "data": [{
@@ -1093,15 +968,11 @@
                 "rank": 15,
                 "value": 25,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 14,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "San Antonio Spurs",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/0/0e/San_Antonio_Spurs_2018.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/0/0e/San_Antonio_Spurs_2018.png",
+        "color": 5
     },
     {
         "data": [{
@@ -1158,15 +1029,11 @@
                 "rank": 14,
                 "value": 26,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 13,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Detroit Pistons",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pistons_logo17.svg/1024px-Pistons_logo17.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pistons_logo17.svg/1024px-Pistons_logo17.svg.png",
+        "color": 30
     },
     {
         "data": [{
@@ -1223,15 +1090,11 @@
                 "rank": 13,
                 "value": 26,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 12,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Sacramento Kings",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Kings_de_Sacramento_logo.svg/1200px-Kings_de_Sacramento_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Kings_de_Sacramento_logo.svg/1200px-Kings_de_Sacramento_logo.svg.png",
+        "color": 14
     },
     {
         "data": [{
@@ -1288,15 +1151,72 @@
                 "rank": 12,
                 "value": 26,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 11,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Los Angeles Lakers",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png",
+        "color": 15
+    },
+    {
+        "data": [{
+                "rank": 17,
+                "value": 39,
+                "stat": "Wins"
+            },
+            {
+                "rank": 12,
+                "value": 43,
+                "stat": "Losses"
+            },
+            {
+                "rank": 20,
+                "value": 1,
+                "stat": "Streak"
+            },
+            {
+                "rank": 9,
+                "value": 10,
+                "stat": "Division Wins"
+            },
+            {
+                "rank": 22,
+                "value": 6,
+                "stat": "Division Losses"
+            },
+            {
+                "rank": 14,
+                "value": 29,
+                "stat": "Conference Wins"
+            },
+            {
+                "rank": 19,
+                "value": 23,
+                "stat": "Conference Losses"
+            },
+            {
+                "rank": 16,
+                "value": 25,
+                "stat": "Home Wins"
+            },
+            {
+                "rank": 15,
+                "value": 16,
+                "stat": "Home Losses"
+            },
+            {
+                "rank": 21,
+                "value": 14,
+                "stat": "Away Wins"
+            },
+            {
+                "rank": 11,
+                "value": 27,
+                "stat": "Away Losses"
+            }
+        ],
+        "fullName": "Charlotte Hornets",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/Hornets_de_Charlotte_logo.svg/1200px-Hornets_de_Charlotte_logo.svg.png",
+        "color": 24
     },
     {
         "data": [{
@@ -1353,15 +1273,11 @@
                 "rank": 10,
                 "value": 27,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 10,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "New Orleans Pelicans",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/New_Orleans_Pelicans.png/200px-New_Orleans_Pelicans.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/New_Orleans_Pelicans.png/200px-New_Orleans_Pelicans.png",
+        "color": 9
     },
     {
         "data": [{
@@ -1418,15 +1334,11 @@
                 "rank": 9,
                 "value": 28,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 9,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Chicago Bulls",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png",
+        "color": 23
     },
     {
         "data": [{
@@ -1483,15 +1395,11 @@
                 "rank": 8,
                 "value": 29,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 8,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Memphis Grizzlies",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/1200px-Memphis_Grizzlies.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/1200px-Memphis_Grizzlies.svg.png",
+        "color": 13
     },
     {
         "data": [{
@@ -1548,15 +1456,11 @@
                 "rank": 7,
                 "value": 29,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 7,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Atlanta Hawks",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png",
+        "color": 28
     },
     {
         "data": [{
@@ -1613,15 +1517,11 @@
                 "rank": 6,
                 "value": 30,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 6,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Minnesota Timberwolves",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d9/Timberwolves_du_Minnesota_logo_2017.png/200px-Timberwolves_du_Minnesota_logo_2017.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d9/Timberwolves_du_Minnesota_logo_2017.png/200px-Timberwolves_du_Minnesota_logo_2017.png",
+        "color": 10
     },
     {
         "data": [{
@@ -1678,15 +1578,11 @@
                 "rank": 5,
                 "value": 31,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 5,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Washington Wizards",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Washington_Wizards_logo.svg/600px-Washington_Wizards_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Washington_Wizards_logo.svg/600px-Washington_Wizards_logo.svg.png",
+        "color": 1
     },
     {
         "data": [{
@@ -1743,15 +1639,11 @@
                 "rank": 4,
                 "value": 32,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 4,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Dallas Mavericks",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b8/Mavericks_de_Dallas_logo.svg/150px-Mavericks_de_Dallas_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b8/Mavericks_de_Dallas_logo.svg/150px-Mavericks_de_Dallas_logo.svg.png",
+        "color": 20
     },
     {
         "data": [{
@@ -1808,15 +1700,11 @@
                 "rank": 3,
                 "value": 33,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 3,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "New York Knicks",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/d/dc/NY_Knicks_Logo_2011.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/d/dc/NY_Knicks_Logo_2011.png",
+        "color": 18
     },
     {
         "data": [{
@@ -1873,15 +1761,11 @@
                 "rank": 2,
                 "value": 34,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 2,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Phoenix Suns",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/5/56/Phoenix_Suns_2013.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/5/56/Phoenix_Suns_2013.png",
+        "color": 11
     },
     {
         "data": [{
@@ -1938,14 +1822,10 @@
                 "rank": 1,
                 "value": 35,
                 "stat": "Away Losses"
-            },
-            {
-                "rank": 1,
-                "value": 999,
-                "stat": "Placeholder"
             }
         ],
         "fullName": "Cleveland Cavaliers",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/06/Cavs_de_Cleveland_logo_2017.png/150px-Cavs_de_Cleveland_logo_2017.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/06/Cavs_de_Cleveland_logo_2017.png/150px-Cavs_de_Cleveland_logo_2017.png",
+        "color": 22
     }
 ]
