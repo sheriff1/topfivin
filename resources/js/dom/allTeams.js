@@ -4,7 +4,7 @@ $.getJSON("resources/data/rankings.json", function(json) {
     rankings = json;
     var columnsForTable = [];
 
-    columnsForTable.push({ field: "logo", title: "Logo" });
+    columnsForTable.push({ field: "logo", title: "" });
     columnsForTable.push({ field: "fullName", title: "Team", sortable: true });
     for (var i = 0; i < rankings[0].data.length; i++) {
         columnsForTable.push({ field: "data." + i + ".value", title: rankings[0].data[i].stat, sortable: true });
