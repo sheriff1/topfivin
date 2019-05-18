@@ -3,12 +3,14 @@ const _ = require('underscore');
 
 var gameDetailsRaw = [];
 var gameDetailsByTeam = [];
+var counter = 0;
 
 gameDetailsRaw = JSON.parse(fs.readFileSync('gameDetailsRaw.json', 'utf8'));
 
 for (var i = 0; i < gameDetailsRaw.length; i++) {
     //VISITING TEAM
-    if (gameDetailsRaw.statusCode == 200) {
+    if (gameDetailsRaw[i].statusCode == 200 && gameDetailsRaw[i].body.api.game[0].gameId != 5714) { //game 5714 == all star game
+
         if (_.findWhere(gameDetailsByTeam, { fullName: gameDetailsRaw[i].body.api.game[0].vTeam.fullName }) == null) {
             //ADD ITEM TO ARRAY FOR VISITING TEAM
             var toBeAdded = {};
@@ -161,10 +163,12 @@ for (var i = 0; i < gameDetailsRaw.length; i++) {
             }
 
         }
+        counter++;
+        console.log(counter);
     }
 }
 
-fs.appendFile("resources/data/gameDetailsByTeam.json", JSON.stringify(gameDetailsByTeam), function(err) {
+fs.appendFile("gameDetailsByTeam.json", JSON.stringify(gameDetailsByTeam), function(err) {
     if (err) {
         return console.log(err);
     }
