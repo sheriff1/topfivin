@@ -1,0 +1,67 @@
+[{
+        "fullName": "Oklahoma City Thunder",
+        "gameDuration": 145,
+        "timesTied": 3,
+        "leadChanges": 4,
+        "points": 100,
+        "q1Points": 23,
+        "q2Points": 24,
+        "q3Points": 32,
+        "q4Points": 21
+    },
+    {
+        "fullName": "Golden State Warriors",
+        "gameDuration": 145,
+        "timesTied": 3,
+        "leadChanges": 4,
+        "points": 108,
+        "q1Points": 31,
+        "q2Points": 26,
+        "q3Points": 26,
+        "q4Points": 25
+    },
+    {
+        "fullName": "Milwaukee Bucks",
+        "gameDuration": 137,
+        "timesTied": 4,
+        "leadChanges": 2,
+        "points": 113,
+        "q1Points": 36,
+        "q2Points": 31,
+        "q3Points": 26,
+        "q4Points": 20
+    },
+    {
+        "fullName": "Charlotte Hornets",
+        "gameDuration": 137,
+        "timesTied": 4,
+        "leadChanges": 2,
+        "points": 112,
+        "q1Points": 23,
+        "q2Points": 31,
+        "q3Points": 29,
+        "q4Points": 29
+    },
+    {
+        "fullName": "Philadelphia 76ers",
+        "gameDuration": 139,
+        "timesTied": 4,
+        "leadChanges": 1,
+        "points": 87,
+        "q1Points": 21,
+        "q2Points": 21,
+        "q3Points": 24,
+        "q4Points": 21
+    },
+    {
+        "fullName": "Boston Celtics",
+        "gameDuration": 139,
+        "timesTied": 4,
+        "leadChanges": 1,
+        "points": 105,
+        "q1Points": 21,
+        "q2Points": 26,
+        "q3Points": 30,
+        "q4Points": 28
+    }
+]

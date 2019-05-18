@@ -1,0 +1,25 @@
+{
+  "name": "topfivin",
+  "version": "1.0.0",
+  "description": "Top Fivin'",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "underscore": "^1.9.1",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheriff1/topfivin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheriff1/topfivin/issues"
+  },
+  "homepage": "https://github.com/sheriff1/topfivin#readme"
+}
