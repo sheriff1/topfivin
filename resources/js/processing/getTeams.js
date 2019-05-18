@@ -3,7 +3,7 @@ const fs = require('fs');
 
 unirest.get("https://api-nba-v1.p.rapidapi.com/teams/league/standard")
     .header("X-RapidAPI-Host", "api-nba-v1.p.rapidapi.com")
-    .header("X-RapidAPI-Key", "13bddf6d9fmsh46f9643a34ba3a1p1d3dd1jsn83317f761bc8")
+    .header("X-RapidAPI-Key", "[ADD API KEY HERE]")
     .end(function(result) {
         console.log(result.status, result.headers, result.body);
 
