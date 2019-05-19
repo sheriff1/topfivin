@@ -54,7 +54,7 @@ footer {
 }
 
 .bottom-part {
-    border-top: 2px solid #ddd;
+    border-top: 2px solid rgb(234, 238, 240);
     background-color: #e03a3e;
     color: #fff;
 }
