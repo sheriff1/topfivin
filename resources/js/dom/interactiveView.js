@@ -12,7 +12,7 @@ $.getJSON("resources/data/rankings.json", function(json) {
 
     for (var i = 0; i < rankings.length; i++) {
         var dropdownTeamItem = "<option class=\"dropdown-item\">" + rankings[i]['fullName'] + "</option>";
-        $(".dropdown").append(dropdownTeamItem);
+        $(".team-picker").append(dropdownTeamItem);
     }
 
     //SORT INITIAL ITEM'S STATISTICS BY RANK
@@ -60,7 +60,7 @@ function showNotTopFive() {
 }
 
 $(function() {
-    $(".dropdown").change(function() {
+    $(".team-picker").change(function() {
 
         var nextTeam = _.findWhere(rankings, { fullName: $('option:selected', this).text() });
 

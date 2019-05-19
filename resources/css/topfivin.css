@@ -48,6 +48,10 @@ footer {
     font-weight: 600;
 }
 
+.hero-text p {
+    font-size: .8em;
+}
+
 .bottom-part {
     border-top: 2px solid #ddd;
     background-color: #e03a3e;
