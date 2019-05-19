@@ -33,70 +33,88 @@
     {
         "fullName": "Detroit Pistons",
         "colors": "#006BB6"
-    }, {
+    },
+    {
         "fullName": "Golden State Warriors",
-        "colors": "#FDB927"
-    }, {
+        "colors": "#fcb316"
+    },
+    {
         "fullName": "Houston Rockets",
         "colors": "#a4adb2"
     },
     {
         "fullName": "Indiana Pacers",
         "colors": "#002D62"
-    }, {
+    },
+    {
         "fullName": "LA Clippers",
         "colors": "#006BB6"
     },
     {
         "fullName": "Los Angeles Lakers",
         "colors": "#552583"
-    }, {
+    },
+    {
         "fullName": "Memphis Grizzlies",
         "colors": "#5D76A9"
     },
     {
         "fullName": "Miami Heat",
         "colors": "#98002E"
-    }, {
+    },
+    {
         "fullName": "Milwaukee Bucks",
         "colors": "#00471B"
-    }, {
+    },
+    {
         "fullName": "Minnesota Timberwolves",
         "colors": "#236192"
-    }, {
+    },
+    {
         "fullName": "New Orleans Pelicans",
         "colors": "#0C2340"
-    }, {
+    },
+    {
         "fullName": "New York Knicks",
         "colors": "#F58426"
-    }, {
+    },
+    {
         "fullName": "Oklahoma City Thunder",
         "colors": "#007ac1"
-    }, {
+    },
+    {
         "fullName": "Orlando Magic",
         "colors": "#0077c0"
-    }, {
+    },
+    {
         "fullName": "Philadelphia 76ers",
         "colors": "#006bb6"
-    }, {
+    },
+    {
         "fullName": "Phoenix Suns",
         "colors": "#1d1160"
-    }, {
+    },
+    {
         "fullName": "Portland Trail Blazers",
         "colors": "#E03A3E"
-    }, {
+    },
+    {
         "fullName": "Sacramento Kings",
         "colors": "#5a2d81"
-    }, {
+    },
+    {
         "fullName": "San Antonio Spurs",
-        "colors": "#c4ced4"
-    }, {
+        "colors": "#a4adb2"
+    },
+    {
         "fullName": "Toronto Raptors",
         "colors": "#ce1141"
-    }, {
+    },
+    {
         "fullName": "Utah Jazz",
         "colors": "#002B5C"
-    }, {
+    },
+    {
         "fullName": "Washington Wizards",
         "colors": "#002B5C"
     }
