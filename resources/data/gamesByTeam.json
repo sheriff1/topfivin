@@ -1,0 +1,151 @@
+[{
+        "fullName": "Philadelphia 76ers",
+        "gameDuration": 11339,
+        "points": 9445
+    },
+    {
+        "fullName": "Boston Celtics",
+        "gameDuration": 10832,
+        "points": 9216
+    },
+    {
+        "fullName": "Oklahoma City Thunder",
+        "gameDuration": 11245,
+        "points": 9387
+    },
+    {
+        "fullName": "Golden State Warriors",
+        "gameDuration": 10851,
+        "points": 9650
+    },
+    {
+        "fullName": "Milwaukee Bucks",
+        "gameDuration": 10812,
+        "points": 9686
+    },
+    {
+        "fullName": "Charlotte Hornets",
+        "gameDuration": 10803,
+        "points": 9081
+    },
+    {
+        "fullName": "Brooklyn Nets",
+        "gameDuration": 11082,
+        "points": 9204
+    },
+    {
+        "fullName": "Detroit Pistons",
+        "gameDuration": 11203,
+        "points": 8778
+    },
+    {
+        "fullName": "Memphis Grizzlies",
+        "gameDuration": 11028,
+        "points": 8490
+    },
+    {
+        "fullName": "Indiana Pacers",
+        "gameDuration": 10750,
+        "points": 8857
+    },
+    {
+        "fullName": "Miami Heat",
+        "gameDuration": 10956,
+        "points": 8668
+    },
+    {
+        "fullName": "Orlando Magic",
+        "gameDuration": 10450,
+        "points": 8800
+    },
+    {
+        "fullName": "Atlanta Hawks",
+        "gameDuration": 11256,
+        "points": 9294
+    },
+    {
+        "fullName": "New York Knicks",
+        "gameDuration": 10930,
+        "points": 8575
+    },
+    {
+        "fullName": "Cleveland Cavaliers",
+        "gameDuration": 10554,
+        "points": 8567
+    },
+    {
+        "fullName": "Toronto Raptors",
+        "gameDuration": 11024,
+        "points": 9384
+    },
+    {
+        "fullName": "New Orleans Pelicans",
+        "gameDuration": 10936,
+        "points": 9466
+    },
+    {
+        "fullName": "Houston Rockets",
+        "gameDuration": 10923,
+        "points": 9341
+    },
+    {
+        "fullName": "Minnesota Timberwolves",
+        "gameDuration": 11049,
+        "points": 9223
+    },
+    {
+        "fullName": "San Antonio Spurs",
+        "gameDuration": 10672,
+        "points": 9156
+    },
+    {
+        "fullName": "Utah Jazz",
+        "gameDuration": 10998,
+        "points": 9161
+    },
+    {
+        "fullName": "Sacramento Kings",
+        "gameDuration": 10926,
+        "points": 9363
+    },
+    {
+        "fullName": "Denver Nuggets",
+        "gameDuration": 10905,
+        "points": 9075
+    },
+    {
+        "fullName": "LA Clippers",
+        "gameDuration": 11234,
+        "points": 9442
+    },
+    {
+        "fullName": "Dallas Mavericks",
+        "gameDuration": 11007,
+        "points": 8927
+    },
+    {
+        "fullName": "Phoenix Suns",
+        "gameDuration": 11009,
+        "points": 8815
+    },
+    {
+        "fullName": "Chicago Bulls",
+        "gameDuration": 10684,
+        "points": 8605
+    },
+    {
+        "fullName": "Washington Wizards",
+        "gameDuration": 11022,
+        "points": 9350
+    },
+    {
+        "fullName": "Los Angeles Lakers",
+        "gameDuration": 11241,
+        "points": 9165
+    },
+    {
+        "fullName": "Portland Trail Blazers",
+        "gameDuration": 10859,
+        "points": 9402
+    }
+]
