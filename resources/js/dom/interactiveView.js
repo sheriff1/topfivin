@@ -57,7 +57,6 @@ $.getJSON("resources/data/rankings.json", function(json) {
 
 function showNotTopFive() {
     $('.not-top-five').toggle();
-    $('.toggle-not-top-five').text("Hide the rest!");
 }
 
 $(function() {

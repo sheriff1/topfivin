@@ -1,3 +1,5 @@
+/*all*/
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -6,6 +8,16 @@ th,
 td {
     border: 1px solid;
 }
+
+footer {
+    padding: 1em;
+    font-size: .66em;
+    border-top: 2px solid black;
+    background-color: rgb(32, 32, 32);
+}
+
+
+/*index.html*/
 
 .logo-data {
     text-align: center;
@@ -18,15 +30,6 @@ td {
     max-width: 50px;
     max-height: 50px;
 }
-
-
-/*===================*/
-
-
-/* index.html        */
-
-
-/*===================*/
 
 .header-navigation {
     padding: 0 1em;
@@ -45,11 +48,8 @@ td {
     font-weight: 600;
 }
 
-.hero {
-    font-family: 'Open Sans', sans-serif;
-}
-
 .bottom-part {
+    border-top: 2px solid #ddd;
     background-color: #e03a3e;
     color: #fff;
 }
@@ -103,11 +103,14 @@ td {
     display: none;
 }
 
-.allTeamsTable {
-    padding: 0 4em 2em 4em;
-}
+
+/*allTeams.html*/
 
 .backToIndex {
     text-align: center;
     margin: 2em;
+}
+
+.allTeamsTable {
+    padding: 0 4em 2em 4em;
 }
