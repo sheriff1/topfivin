@@ -76,7 +76,7 @@ $(function() {
             document.getElementsByClassName("city-line")[0].textContent = "The " + nameSplit[0];
             document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[1].toUpperCase();
         } else if (nameSplit.length == 3) {
-            document.getElementsByClassName("city-line")[0].textContent = nameSplit[0] + " " + nameSplit[1];
+            document.getElementsByClassName("city-line")[0].textContent = "The " + nameSplit[0] + " " + nameSplit[1];
             document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[2].toUpperCase();
         }
 
