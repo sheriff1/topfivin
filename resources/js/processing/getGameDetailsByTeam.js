@@ -9,6 +9,8 @@ gameDetailsRaw = JSON.parse(fs.readFileSync('gameDetailsRaw.json', 'utf8'));
 for (var i = 0; i < gameDetailsRaw.length; i++) {
     //VISITING TEAM
     if (gameDetailsRaw[i].statusCode == 200 &&
+        gameDetailsRaw[i].body.api.game[0].league == "standard" &&
+        gameDetailsRaw[i].body.api.game[0].seasonStage == 2 &&
         gameDetailsRaw[i].body.api.game[0].gameId != 5712 &&
         gameDetailsRaw[i].body.api.game[0].gameId != 5713 &&
         gameDetailsRaw[i].body.api.game[0].gameId != 5714 &&
