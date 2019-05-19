@@ -38,8 +38,7 @@ footer {
 }
 
 .header-navigation-nba-logo {
-    height: 3em;
-    padding: 0.5em 0;
+    height: 2em;
 }
 
 .header-navigation-tagline {
@@ -93,6 +92,10 @@ footer {
     max-height: 250px;
 }
 
+.team-picker {
+    max-width: 250px;
+}
+
 .rank-listing-table,
 .rank-listing-table tr {
     border-top: 3px solid #fff;
@@ -105,6 +108,33 @@ footer {
 
 .not-top-five {
     display: none;
+}
+
+
+/*MEDIUM BREAKPOINT FIXES*/
+
+@media(max-width:768px) {
+    .hero-nba-logo {
+        padding: 2em 4em;
+    }
+}
+
+
+/*SMALL BREAKPOINT FIXES*/
+
+@media(max-width:576px) {
+    .team-select-team-logo-container {
+        border-right: 0;
+        border-bottom: 1px solid white;
+        padding-bottom: 2em;
+    }
+    .team-select-text-container {
+        padding-top: 2.5em;
+        padding-bottom: 1em;
+    }
+    .rank-listing-data {
+        font-size: .66em;
+    }
 }
 
 

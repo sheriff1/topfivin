@@ -108,7 +108,7 @@ function buildStandings(teams, standings) {
         toBeAdded.data[2] = {
             rank: "",
             value: Number(_.findWhere(standings, { teamId: teams[i].teamId }).streak),
-            stat: "Streak"
+            stat: "Recent Streak"
         }
 
         toBeAdded.data[3] = {
