@@ -4,7 +4,7 @@ const _ = require('underscore');
 var gameDetailsRaw = [];
 var gameDetailsByTeam = [];
 
-gameDetailsRaw = JSON.parse(fs.readFileSync('gameDetailsRaw.json', 'utf8'));
+gameDetailsRaw = JSON.parse(fs.readFileSync('_gameDetailsRaw.json', 'utf8'));
 
 for (var i = 0; i < gameDetailsRaw.length; i++) {
     //VISITING TEAM
@@ -172,9 +172,9 @@ for (var i = 0; i < gameDetailsRaw.length; i++) {
     }
 }
 
-fs.appendFile("gameDetailsByTeam.json", JSON.stringify(gameDetailsByTeam), function(err) {
+fs.appendFile("_gameDetailsByTeam.json", JSON.stringify(gameDetailsByTeam), function(err) {
     if (err) {
         return console.log(err);
     }
-    console.log("gameDetailsByTeam.json saved");
+    console.log("_gameDetailsByTeam.json saved");
 });
