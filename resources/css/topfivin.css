@@ -124,6 +124,10 @@ footer {
     .hero-nba-logo {
         padding: 2em 4em;
     }
+    .rank-listing-data th {
+        font-size: 3em;
+        padding: 10px;
+    }
 }
 
 
@@ -139,8 +143,9 @@ footer {
         padding-top: 2.5em;
         padding-bottom: 1em;
     }
-    .rank-listing-data {
-        font-size: .66em;
+    .rank-listing-data th {
+        font-size: 2em;
+        padding: 5px;
     }
     .team-name-line {
         font-size: 3.5em;

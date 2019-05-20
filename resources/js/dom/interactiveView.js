@@ -64,6 +64,9 @@ $(function() {
 
         var nextTeam = _.findWhere(rankings, { fullName: $('option:selected', this).text() });
 
+        //CHANGE LOGO
+        $(".team-select-team-logo").attr("src", nextTeam['logo']);
+
         //SORT NEXT TEAM'S STATISTICS BY RANK
         nextTeam.data = nextTeam.data.sort(function(a, b) {
             return a.rank - b.rank;
@@ -79,9 +82,6 @@ $(function() {
             document.getElementsByClassName("city-line")[0].textContent = "The " + nameSplit[0] + " " + nameSplit[1];
             document.getElementsByClassName("team-name-line")[0].textContent = nameSplit[2].toUpperCase();
         }
-
-        //CHANGE LOGO
-        $(".team-select-team-logo").attr("src", nextTeam['logo']);
 
         //CHANGE BACKGROUND COLOR
         var nextTeamColor = _.findWhere(colors, { fullName: $('option:selected', this).text() });
