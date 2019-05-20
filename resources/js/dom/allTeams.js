@@ -8,7 +8,7 @@ $.getJSON("resources/data/rankings.json", function(json) {
     columnsForTable.push({ field: "fullName", title: "Team", sortable: true });
     for (var i = 0; i < rankings[0].data.length; i++) {
         columnsForTable.push({ field: "data." + i + ".value", title: rankings[0].data[i].stat, sortable: true });
-        columnsForTable.push({ field: "data." + i + ".rank", title: rankings[0].data[i].stat + " Ranking", sortable: true });
+        // columnsForTable.push({ field: "data." + i + ".rank", title: rankings[0].data[i].stat + " Ranking", sortable: true });
     }
 
     $('#table').bootstrapTable({
