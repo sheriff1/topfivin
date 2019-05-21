@@ -118,6 +118,15 @@ footer {
 }
 
 
+/*credits.html*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
 /*MEDIUM BREAKPOINT FIXES*/
 
 @media(max-width:768px) {

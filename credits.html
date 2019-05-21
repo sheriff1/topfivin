@@ -2,18 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49486232-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-49486232-1');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Top Five In</title>
@@ -31,22 +19,37 @@
         <h1 class="header-navigation-tagline text-right pl-1">Top Five In</h1>
     </nav>
 
-    <section class="backToIndex">
-        <a href="index.html">
-            << Back to Top Five In</a>
-    </section>
+    <div class="container">
+        <section class="backToIndex">
+            <a href="index.html">
+                << Back to Top Five In</a>
+        </section>
 
-    <section class="allTeamsTable">
-        <table id="table" data-sortable="true">
-            <thead>
-                <tr>
-                    <th class="logo-data" data-formatter="imageFormatter">Logo</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    </section>
+        <section class="py-4">
+            <h1>🗣 Special shout-out to:</h1>
+            <ul>
+                <li><a href="https://rapidapi.com/api-sports/api/api-nba">NBA API via RapidAPI</a></li>
+                <li><a href="https://nba.com">NBA.com</a></li>
+            </ul>
+        </section>
+
+        <section class="py-4">
+            <h1>🗒 Notes & Disclaimers</h1>
+            <ul>
+                <li>The data displayed in this infographic site cannot be guaranteed 100% accurate.</li>
+                <li>The data in this site is reflective of the 2018-2019 NBA regular season.</li>
+                <li>There are about 12 games missing from the dataset that compiles some of the data shown. This missing data is progressively being added.</li>
+            </ul>
+        </section>
+
+        <section class="py-4">
+            <h1>🤔 Who made this?</h1>
+            <p>
+                Sheriff Jolaoso, a product and service designer. He likes basketball, user experience, and humor. He wrapped all three into putting together NBA Top Five In. Check out his <a href="https://sheriffjolaoso.com">website</a>. He has cool blog
+                posts too. 👍🏿✌🏿.
+            </p>
+        </section>
+    </div>
 
     <footer class="footer">
         <a href="https://sheriffjolaoso.com">Hastily & gracefully created by Sheriff 👍🏿✌🏿.</a>
@@ -65,6 +68,7 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
+
 
 </body>
 
